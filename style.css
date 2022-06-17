@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: auto;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(194, 206, 206);
+}
+
+main {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: row;
+  align-items: center;
+}
+
+.first-row {
+  background-color: rgb(245, 11, 11);
+  padding: 2em;
+  font-size: bold;
+  height: 200px;
+}
+
+.second-row {
+  background-color: rgb(112, 8, 8);
+  padding: 2em;
+  font-size: bold;
+  height: 200px;
+}
+
+.third-row {
+  background-color: rgb(62, 11, 245);
+  padding: 2em;
+  font-size: bold;
+  height: 200px;
+}
